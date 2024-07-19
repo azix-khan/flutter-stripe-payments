@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_stripe/flutter_stripe.dart';
 import 'package:stripe_payment/constants/constants.dart';
-import 'package:stripe_payment/home_screen.dart';
+import 'package:stripe_payment/screens/home_screen.dart';
 
 void main() async {
   await _setup();

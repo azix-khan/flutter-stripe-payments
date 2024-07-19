@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:stripe_payment/stripe_services.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -6,18 +7,19 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SafeArea(
+      appBar: AppBar(
+        title: const Text('Stripe Payment'),
+      ),
+      body: SizedBox.expand(
           child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Center(
-            child: ElevatedButton(
-              style: ElevatedButton.styleFrom(
-                foregroundColor: Colors.white,
-                backgroundColor: Colors.cyan,
-                elevation: 0,
-              ),
-              onPressed: () {},
+            child: MaterialButton(
+              color: Colors.green,
+              onPressed: () {
+                StripeServices.instance.makePayment();
+              },
               child: const Text(
                 "Purchase",
               ),

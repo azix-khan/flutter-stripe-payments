@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:dio/dio.dart';
 import 'package:flutter_stripe/flutter_stripe.dart';
-import 'package:stripe_payment/constants.dart';
+import 'package:stripe_payment/constants/constants.dart';
 
 class StripeServices {
   StripeServices._();

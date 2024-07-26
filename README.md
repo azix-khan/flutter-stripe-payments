@@ -1,6 +1,6 @@
 # stripe_payment
 
-Stripe Payments Using Flutter
+Stripe Payments Using Flutter.
 
 ## Getting Started
 

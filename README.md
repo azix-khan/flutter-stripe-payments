@@ -1,6 +1,6 @@
 # stripe_payment
 
-A new Flutter project.
+Stripe Payments Using Flutter
 
 ## Getting Started
 

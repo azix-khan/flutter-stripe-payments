@@ -1,6 +1,7 @@
 # stripe_payment
 
 Stripe Payments Using Flutter.
+stripe API and secret key
 
 ## Getting Started
 
